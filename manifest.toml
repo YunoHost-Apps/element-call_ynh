@@ -4,8 +4,8 @@ packaging_format = 2
 
 id = "element-call"
 name = "Element-Call"
-description.en = "Explain in *a few (10~15) words* the purpose of the app or what it actually does (it is meant to give a rough idea to users browsing a catalog of 100+ apps)"
-description.fr = "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
+description.en = "Group calls powered by Matrix"
+description.fr = "Appels de groupe alimentés par Matrix"
 
 version = "0.5.9~ynh1"
 
@@ -15,7 +15,6 @@ maintainers = ["eric_G"]
 license = "Apache-2.0"
 website = "https://call.element.io/"
 demo = "https://call.element.io/"
-admindoc = "https://yunohost.org/packaging_apps"
 code = "https://github.com/vector-im/element-call"
 
 [integration]
@@ -38,7 +37,6 @@ ram.runtime = "50M"
     [install.init_main_permission]
     type = "group"
     default = "visitors"
-
 
 [resources]
 
