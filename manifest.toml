@@ -45,7 +45,6 @@ ram.runtime = "50M"
         [resources.sources.main]
         url = "https://github.com/vector-im/element-call/archive/refs/tags/v0.5.9.tar.gz"
         sha256 = "a07834e1f4bd00a71d3dc5071eaed1051a7272a742ab16b64d9f8e9e2706f829"
-
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
@@ -54,8 +53,6 @@ ram.runtime = "50M"
 
     [resources.permissions]
     main.url = "/"
-
-    [resources.ports]
 
     [resources.apt]
     packages = ""
