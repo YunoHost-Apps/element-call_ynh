@@ -7,3 +7,5 @@ test_format = 1.0
     # ------------
     # Tests to run
     # ------------
+
+    arg.default_home_server = "my-own-homeserver.tld"
