@@ -25,7 +25,7 @@ This is a dummy description of this app features
 
 ## Screenshots
 
-![Screenshot of Element-Call](./doc/screenshots/example.jpg)
+![Screenshot of Element-Call](./doc/screenshots/screenshot.jpg)
 
 ## Documentation and resources
 
