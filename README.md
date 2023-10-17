@@ -16,7 +16,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-This is a dummy description of this app features
+Group calls with WebRTC that leverage Matrix and an open-source WebRTC toolkit from LiveKit.
 
 
 **Shipped version:** 0.5.9~ynh1
