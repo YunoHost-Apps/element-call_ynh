@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+Group calls with WebRTC that leverage Matrix and an open-source WebRTC toolkit from LiveKit.
