@@ -1,0 +1,18 @@
+version = "1.0"
+
+[main]
+name.en = "Element-call configuration"
+name.fr = "Configuration d'Element"
+
+    [main.config]
+    name.en = "Configuration Options"
+    name.fr = "Options de configuration"
+
+        [main.config.default_home_server]
+        ask.en = "Default Home Server"
+        ask.fr = "Serveur Matrix par défaut"
+        type = "string"
+        default = "matrix.org"
+        help.en = "Define Matrix default home server address."
+        help.fr = "Définir l'adresse du serveur par défaut de Matrix."
+        bind = "base_url:__INSTALL_DIR__/config.json"
