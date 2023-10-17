@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+Appels de groupe avec WebRTC qui exploitent Matrix et une boîte à outils WebRTC open source de LiveKit.
