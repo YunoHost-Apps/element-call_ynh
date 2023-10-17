@@ -30,7 +30,6 @@ Ceci est une fausse description des fonctionalités de l'app
 ## Documentations et ressources
 
 * Site officiel de l’app : <https://call.element.io/>
-* Documentation officielle de l’admin : <https://yunohost.org/packaging_apps>
 * Dépôt de code officiel de l’app : <https://github.com/vector-im/element-call>
 * Signaler un bug : <https://github.com/YunoHost-Apps/element-call_ynh/issues>
 
