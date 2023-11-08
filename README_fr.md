@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Appels de groupe avec WebRTC qui exploitent Matrix et une boîte à outils WebRTC open source de LiveKit.
 
-**Version incluse :** 0.5.9~ynh1
+**Version incluse :** 0.5.10~ynh1
 
 **Démo :** https://call.element.io/
 
@@ -30,6 +30,7 @@ Appels de groupe avec WebRTC qui exploitent Matrix et une boîte à outils WebRT
 
 * Site officiel de l’app : <https://call.element.io/>
 * Dépôt de code officiel de l’app : <https://github.com/vector-im/element-call>
+* YunoHost Store: <https://apps.yunohost.org/app/element-call>
 * Signaler un bug : <https://github.com/YunoHost-Apps/element-call_ynh/issues>
 
 ## Informations pour les développeurs
