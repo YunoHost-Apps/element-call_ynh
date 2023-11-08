@@ -19,7 +19,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 Group calls with WebRTC that leverage Matrix and an open-source WebRTC toolkit from LiveKit.
 
 
-**Shipped version:** 0.5.9~ynh1
+**Shipped version:** 0.5.10~ynh1
 
 **Demo:** https://call.element.io/
 
