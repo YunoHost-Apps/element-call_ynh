@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Appels de groupe avec WebRTC qui exploitent Matrix et une boîte à outils WebRTC open source de LiveKit.
 
-**Version incluse :** 0.5.11~ynh1
+**Version incluse :** 0.5.14~ynh1
 
 **Démo :** https://call.element.io/
 
