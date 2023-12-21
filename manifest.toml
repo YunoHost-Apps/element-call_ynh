@@ -38,6 +38,13 @@ ram.runtime = "50M"
     type = "group"
     default = "visitors"
 
+    [install.default_home_server]
+    ask.en = "Choose a default Matrix server"
+    ask.fr = "Choisissez un serveur Matrix par défault"
+    type = "string"
+    example = "my-own-homeserver.tld"
+    default = "matrix.org"
+
 [resources]
 
     [resources.sources]
