@@ -9,7 +9,7 @@ description.fr = "Appels de groupe alimentés par Matrix"
 
 version = "0.5.15~ynh1"
 
-maintainers = ["eric_G"]
+maintainers = []
 
 [upstream]
 license = "Apache-2.0"
@@ -37,6 +37,13 @@ ram.runtime = "50M"
     [install.init_main_permission]
     type = "group"
     default = "visitors"
+
+    [install.default_home_server]
+    ask.en = "Choose a default Matrix server"
+    ask.fr = "Choisissez un serveur Matrix par défault"
+    type = "string"
+    example = "my-own-homeserver.tld"
+    default = "matrix.org"
 
 [resources]
 
