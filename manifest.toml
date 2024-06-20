@@ -7,7 +7,7 @@ name = "Element-Call"
 description.en = "Group calls powered by Matrix"
 description.fr = "Appels de groupe alimentés par Matrix"
 
-version = "0.5.16~ynh1"
+version = "0.5.16~ynh2"
 
 maintainers = []
 
