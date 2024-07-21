@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # Element-Call YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/element-call.svg)](https://dash.yunohost.org/appci/app/element-call) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/element-call.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/element-call.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/element-call.svg)](https://ci-apps.yunohost.org/ci/apps/element-call/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/element-call.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/element-call.maintain.svg)
 
 [![Instalatu Element-Call YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=element-call)
 
@@ -19,7 +19,7 @@ EZ editatu eskuz.
 Group calls with WebRTC that leverage Matrix and an open-source WebRTC toolkit from LiveKit.
 
 
-**Paketatutako bertsioa:** 0.5.17~ynh1
+**Paketatutako bertsioa:** 0.5.18~ynh1
 
 **Demoa:** <https://call.element.io/>
 
