@@ -7,7 +7,7 @@ name = "Element-Call"
 description.en = "Group calls powered by Matrix"
 description.fr = "Appels de groupe alimentés par Matrix"
 
-version = "0.5.17~ynh1"
+version = "0.5.18~ynh1"
 
 maintainers = []
 
@@ -50,8 +50,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/vector-im/element-call/archive/refs/tags/v0.5.17.tar.gz"
-        sha256 = "1e0d6aa664bad3a83ab33e9944866e9b62abca53c98e5352641a5178c6eb547f"
+        url = "https://github.com/vector-im/element-call/archive/refs/tags/v0.5.18.tar.gz"
+        sha256 = "611b6fa2f6ec3d61d22fe9dbddec8d97bba05bd0173297bc5eafecc7fb2fb93b"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]

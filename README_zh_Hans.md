@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Element-Call
 
-[![集成程度](https://dash.yunohost.org/integration/element-call.svg)](https://dash.yunohost.org/appci/app/element-call) ![工作状态](https://ci-apps.yunohost.org/ci/badges/element-call.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/element-call.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/element-call.svg)](https://ci-apps.yunohost.org/ci/apps/element-call/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/element-call.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/element-call.maintain.svg)
 
 [![使用 YunoHost 安装 Element-Call](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=element-call)
 
@@ -19,7 +19,7 @@
 Group calls with WebRTC that leverage Matrix and an open-source WebRTC toolkit from LiveKit.
 
 
-**分发版本：** 0.5.17~ynh1
+**分发版本：** 0.5.18~ynh1
 
 **演示：** <https://call.element.io/>
 

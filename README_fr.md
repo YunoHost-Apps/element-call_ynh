@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # Element-Call pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/element-call.svg)](https://dash.yunohost.org/appci/app/element-call) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/element-call.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/element-call.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/element-call.svg)](https://ci-apps.yunohost.org/ci/apps/element-call/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/element-call.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/element-call.maintain.svg)
 
 [![Installer Element-Call avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=element-call)
 
@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 Appels de groupe avec WebRTC qui exploitent Matrix et une boîte à outils WebRTC open source de LiveKit.
 
-**Version incluse :** 0.5.17~ynh1
+**Version incluse :** 0.5.18~ynh1
 
 **Démo :** <https://call.element.io/>
 
