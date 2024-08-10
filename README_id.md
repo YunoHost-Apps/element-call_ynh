@@ -19,7 +19,7 @@ Ini TIDAK boleh diedit dengan tangan.
 Group calls with WebRTC that leverage Matrix and an open-source WebRTC toolkit from LiveKit.
 
 
-**Versi terkirim:** 0.5.18~ynh1
+**Versi terkirim:** 0.6.0~ynh1
 
 **Demo:** <https://call.element.io/>
 
@@ -30,7 +30,7 @@ Group calls with WebRTC that leverage Matrix and an open-source WebRTC toolkit f
 ## Dokumentasi dan sumber daya
 
 - Website aplikasi resmi: <https://call.element.io/>
-- Repositori kode aplikasi hulu: <https://github.com/vector-im/element-call>
+- Depot kode aplikasi hulu: <https://github.com/vector-im/element-call>
 - Gudang YunoHost: <https://apps.yunohost.org/app/element-call>
 - Laporkan bug: <https://github.com/YunoHost-Apps/element-call_ynh/issues>
 
