@@ -8,11 +8,8 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression "Installing dependencies..."
 
-# Install Nodejs
 ynh_nodejs_install
 
-#=================================================
-# APP "BUILD" (DEPLOYING SOURCES, VENV, COMPILING ETC)
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
@@ -20,8 +17,6 @@ ynh_script_progression "Setting up source files..."
 
 ynh_setup_source --dest_dir="$install_dir"
 
-#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chmod -R o-rwx "$install_dir"
-#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown -R $app:www-data "$install_dir"
 #=================================================
 # SYSTEM CONFIGURATION
 #=================================================
@@ -38,18 +33,14 @@ ynh_script_progression "Adding $app's configuration..."
 
 ynh_config_add --template="config.json" --destination="$install_dir/public/config.json"
 
-#REMOVEME? Assuming the file is setup using ynh_config_add, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chmod 750 "$install_dir/public/config.json"
-#REMOVEME? Assuming the file is setup using ynh_config_add, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown $app:$app "$install_dir/public/config.json"
-
 #=================================================
 # INSTALL THE ELEMENT CALL
 #=================================================
 ynh_script_progression "Installing $app..."
 
 pushd $install_dir
-
-	ynh_hide_warnings ynh_exec_as_app node_load_PATH yarn install
-	ynh_hide_warnings ynh_exec_as_app node_load_PATH NODE_ENV=production yarn build
+	ynh_hide_warnings ynh_exec_as_app yarn install
+	ynh_hide_warnings ynh_exec_as_app NODE_ENV=production yarn build
 popd
 
 #=================================================
