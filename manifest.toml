@@ -7,7 +7,7 @@ name = "Element-Call"
 description.en = "Group calls powered by Matrix"
 description.fr = "Appels de groupe alimentés par Matrix"
 
-version = "0.6.1~ynh1"
+version = "0.6.6~ynh1"
 
 maintainers = []
 
@@ -18,7 +18,8 @@ demo = "https://call.element.io/"
 code = "https://github.com/vector-im/element-call"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.30"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
@@ -50,13 +51,14 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/vector-im/element-call/archive/refs/tags/v0.6.1.tar.gz"
-        sha256 = "98830a3c8705148216b0d703908e8dc4dedb2af9f85a92dcef67d0cfce285f4c"
+        url = "https://github.com/vector-im/element-call/archive/refs/tags/v0.6.6.tar.gz"
+        sha256 = "cc375626e9bd7510b60699de41f37d1773ca2a1526184941ddc1bf18e46116e3"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
     [resources.install_dir]
+    group = "www-data:r-x"
 
     [resources.permissions]
     main.url = "/"
