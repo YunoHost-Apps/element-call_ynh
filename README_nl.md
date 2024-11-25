@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Element-Call voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/element-call.svg)](https://ci-apps.yunohost.org/ci/apps/element-call/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/element-call.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/element-call.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/element-call)](https://ci-apps.yunohost.org/ci/apps/element-call/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/element-call)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/element-call)
 
 [![Element-Call met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=element-call)
 

@@ -5,7 +5,9 @@ No se debe editar a mano.
 
 # Element-Call para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/element-call.svg)](https://ci-apps.yunohost.org/ci/apps/element-call/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/element-call.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/element-call.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/element-call)](https://ci-apps.yunohost.org/ci/apps/element-call/)
+![Estado funcional](https://apps.yunohost.org/badge/state/element-call)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/element-call)
 
 [![Instalar Element-Call con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=element-call)
 
