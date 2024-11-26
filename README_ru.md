@@ -5,7 +5,9 @@
 
 # Element-Call для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/element-call.svg)](https://ci-apps.yunohost.org/ci/apps/element-call/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/element-call.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/element-call.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/element-call)](https://ci-apps.yunohost.org/ci/apps/element-call/)
+![Состояние работы](https://apps.yunohost.org/badge/state/element-call)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/element-call)
 
 [![Установите Element-Call с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=element-call)
 
@@ -19,7 +21,7 @@
 Group calls with WebRTC that leverage Matrix and an open-source WebRTC toolkit from LiveKit.
 
 
-**Поставляемая версия:** 0.6.1~ynh1
+**Поставляемая версия:** 0.7.0~ynh1
 
 **Демо-версия:** <https://call.element.io/>
 
