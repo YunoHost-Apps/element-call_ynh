@@ -2,7 +2,7 @@ version = "1.0"
 
 [main]
 name.en = "Element-call configuration"
-name.fr = "Configuration d'Element"
+name.fr = "Configuration d'Element-Call"
 
     [main.config]
     name.en = "Configuration Options"
