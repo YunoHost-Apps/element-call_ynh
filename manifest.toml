@@ -24,6 +24,7 @@ architectures = "all"
 multi_instance = true
 
 ldap = false
+
 sso = false
 
 disk = "50M"
@@ -49,10 +50,10 @@ ram.runtime = "50M"
 
     [resources.sources]
 
-        [resources.sources.main]
-        url = "https://github.com/vector-im/element-call/archive/refs/tags/v0.7.2.tar.gz"
-        sha256 = "2cc8a9267ee901340bd8b3b9066618173b8cfadbf2a4de9e936ba59a5c1d88d0"
-        autoupdate.strategy = "latest_github_tag"
+    [resources.sources.main]
+    url = "https://github.com/vector-im/element-call/archive/refs/tags/v0.7.2.tar.gz"
+    sha256 = "2cc8a9267ee901340bd8b3b9066618173b8cfadbf2a4de9e936ba59a5c1d88d0"
+    autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 

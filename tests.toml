@@ -8,9 +8,14 @@ test_format = 1.0
     # Tests to run
     # ------------
 
-
     # -------------------------------
     # Default args to use for install
     # -------------------------------
 
     args.default_home_server = "my-own-homeserver.tld"
+
+    # -------------------------------
+    # Commits to test upgrade from
+    # -------------------------------
+
+    test_upgrade_from.c1e5e6ac293f1674e9454634dd534da02f1d218e.name = "Upgrade from 0.7.1~ynh2"
