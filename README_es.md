@@ -21,7 +21,7 @@ No se debe editar a mano.
 Group calls with WebRTC that leverage Matrix and an open-source WebRTC toolkit from LiveKit.
 
 
-**Versión actual:** 0.7.1~ynh2
+**Versión actual:** 0.7.2~ynh1
 
 **Demo:** <https://call.element.io/>
 
