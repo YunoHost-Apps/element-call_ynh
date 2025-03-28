@@ -3,7 +3,7 @@ Este archivo README esta generado automaticamente<https://github.com/YunoHost/ap
 No se debe editar a mano.
 -->
 
-# Element-Call para Yunohost
+# Element-Call para YunoHost
 
 [![Nivel de integración](https://apps.yunohost.org/badge/integration/element-call)](https://ci-apps.yunohost.org/ci/apps/element-call/)
 ![Estado funcional](https://apps.yunohost.org/badge/state/element-call)
@@ -21,7 +21,7 @@ No se debe editar a mano.
 Group calls with WebRTC that leverage Matrix and an open-source WebRTC toolkit from LiveKit.
 
 
-**Versión actual:** 0.8.0~ynh1
+**Versión actual:** 0.9.0~ynh1
 
 **Demo:** <https://call.element.io/>
 
