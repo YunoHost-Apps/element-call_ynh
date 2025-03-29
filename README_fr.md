@@ -21,7 +21,7 @@ Il NE doit PAS être modifié à la main.
 Appels de groupe avec WebRTC qui exploitent Matrix et une boîte à outils WebRTC open source de LiveKit.
 
 
-**Version incluse :** 0.8.0~ynh1
+**Version incluse :** 0.9.0~ynh1
 
 **Démo :** <https://call.element.io/>
 
