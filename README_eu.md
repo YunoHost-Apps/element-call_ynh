@@ -21,7 +21,7 @@ EZ editatu eskuz.
 Group calls with WebRTC that leverage Matrix and an open-source WebRTC toolkit from LiveKit.
 
 
-**Paketatutako bertsioa:** 0.8.0~ynh1
+**Paketatutako bertsioa:** 0.9.0~ynh1
 
 **Demoa:** <https://call.element.io/>
 
@@ -40,7 +40,7 @@ Group calls with WebRTC that leverage Matrix and an open-source WebRTC toolkit f
 
 Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/element-call_ynh/tree/testing).
 
-`testing` abarra probatzeko, ondorengoa egin:
+`testing` abarra probatzeko, honakoa egin:
 
 ```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/element-call_ynh/tree/testing --debug
