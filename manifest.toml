@@ -7,7 +7,7 @@ name = "Element-Call"
 description.en = "Group calls powered by Matrix"
 description.fr = "Appels de groupe alimentés par Matrix"
 
-version = "0.9.0~ynh1"
+version = "0.14.1~ynh1"
 
 maintainers = []
 
@@ -15,7 +15,7 @@ maintainers = []
 license = "Apache-2.0"
 website = "https://call.element.io/"
 demo = "https://call.element.io/"
-code = "https://github.com/vector-im/element-call"
+code = "https://github.com/element-hq/element-call"
 
 [integration]
 yunohost = ">= 12.0.9"
@@ -51,9 +51,10 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/vector-im/element-call/archive/refs/tags/v0.9.0.tar.gz"
-    sha256 = "d4cd04076b8ab62adf6e83f61d931f0dcec837a661bd58a14184e43c3a59ca78"
-    autoupdate.strategy = "latest_github_tag"
+    url = "https://github.com/element-hq/element-call/releases/download/v0.14.1/element-call-0.14.1.tar.gz"
+    sha256 = "177982ca331fc9cfe8610e9aa2309e191e099f0d49868f9c0c2b63d25e84a545"
+    autoupdate.strategy = "latest_github_release"
+    autoupdate.asset = "element-call-\\d+(\\.\\d+){2}\\.tar\\.gz"
 
     [resources.system_user]
 
@@ -62,9 +63,3 @@ ram.runtime = "50M"
 
     [resources.permissions]
     main.url = "/"
-
-    [resources.apt]
-    packages = ""
-    extras.yarn.repo = "deb https://dl.yarnpkg.com/debian/ stable main"
-    extras.yarn.key = "https://dl.yarnpkg.com/debian/pubkey.gpg"
-    extras.yarn.packages = "yarn"
