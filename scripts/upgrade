@@ -12,20 +12,21 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression "Ensuring downward compatibility..."
 
+if ynh_app_upgrading_from_version_before_or_equal_to 0.9.0~ynh1; then
+    # In version 0.9.0~ynh1 and before, the config.json file was in the "public" subfolder.
+    # It has been moved to the root of the installation directory in version 1.2.0~ynh1.
+    if [ -f "$install_dir/public/config.json" ] && [ ! -f "$install_dir/config.json" ]; then
+        mv "$install_dir/public/config.json" "$install_dir/config.json"
+    fi
+fi
+
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression "Upgrading source files..."
 
 # Download, check integrity, uncompress and patch the source from manifest.toml
-ynh_setup_source --dest_dir="$install_dir" --keep="public/config.json"
-
-#=================================================
-# UPDATE A CONFIG FILE
-#=================================================
-#ynh_script_progression "Updating $app's configuration files..."
-
-#ynh_config_add --template="config.json" --destination="$install_dir/public/config.json"
+ynh_setup_source --dest_dir="$install_dir" --keep="config.json"
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
