@@ -12,7 +12,7 @@ Group calls powered by Matrix
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://call.element.io/)
 [![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://call.element.io/)
-[![Version: 0.14.1~ynh1](https://img.shields.io/badge/Version-0.14.1~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/element-call/)
+[![Version: 0.14.1~ynh1](https://img.shields.io/badge/Version-0.14.1~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/element-call/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/element-call"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
@@ -27,7 +27,7 @@ Group calls powered by Matrix
 
 [![Automatic tests level](https://apps.yunohost.org/badge/cilevel/element-call)](https://ci-apps.yunohost.org/ci/apps/element-call/)
 
-🛠️ Upstream Element-Call repository: <https://github.com/vector-im/element-call>
+🛠️ Upstream Element-Call repository: <https://github.com/element-hq/element-call>
 
 Pull request are welcome and should target the [`testing` branch](https://github.com/YunoHost-Apps/element-call_ynh/tree/testing).
 
