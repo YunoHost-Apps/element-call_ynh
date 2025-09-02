@@ -11,7 +11,7 @@
 # display dynamic informations or choices, pre-loading of config type .cube... ).
 
 source /usr/share/yunohost/helpers
-source _common.sh
+
 
 #=================================================
 ynh_app_config_run $1
