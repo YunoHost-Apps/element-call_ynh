@@ -7,7 +7,7 @@ name = "Element-Call"
 description.en = "Group calls powered by Matrix"
 description.fr = "Appels de groupe alimentés par Matrix"
 
-version = "0.19.0~ynh1"
+version = "0.19.1~ynh1"
 
 maintainers = []
 
@@ -50,8 +50,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/element-hq/element-call/releases/download/v0.19.0/element-call-0.19.0.tar.gz"
-    sha256 = "8c7e38960f7e6e82692ce1f4d644fb36ad13192997b061191bd783e4fa229a58"
+    url = "https://github.com/element-hq/element-call/releases/download/v0.19.1/element-call-0.19.1.tar.gz"
+    sha256 = "b56fc59c12d59990b9f16d1ebb05dcbc4b677abf208593f0e1ed71d3cd21658b"
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset = "element-call-\\d+(\\.\\d+){2}\\.tar\\.gz"
 
